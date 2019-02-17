@@ -15,8 +15,8 @@ TARGET_NO_BOOTLOADER := true
 TARGET_BOOTLOADER_BOARD_NAME := mt6757
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/doogee/mix/kernel
-BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
+TARGET_PREBUILT_KERNEL := device/doogee/doogeemix/kernel
+BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 buildvariant=user androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 40078000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04f88000 --tags_offset 0x03f88000
