@@ -24,7 +24,6 @@
 /tee1		emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/tee1		flags=display="tee";backup=1;flashimg=1
 /tee2		emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/tee2		flags=backup=1;subpartitionof=/tee1
 /system		ext4	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/system
-/system_image	emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/system
 /cache		ext4	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/cache
 /data		ext4	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata		flags=encryptable=/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/metadata
 #/flashinfo	emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/flashinfo
